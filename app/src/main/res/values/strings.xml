@@ -1,0 +1,418 @@
+<resources>
+    <string name="app_name">Equity Assurance</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="nav_menus">Menus</string>
+    <string name="selected_item">Selected item</string>
+    <!--arrays resources-->
+    <string-array name="drawer_main_options">
+        <item>Travel Insurance</item>
+        <item>MicroLife Insurance</item>
+        <item>Micro Insurance</item>
+        <item>Home Insurance</item>
+        <item>Claims</item>
+        <item>Buy Now</item>
+        <item>Make Payment</item>
+        <item>Contact Us</item>
+        <item>About Us</item>
+        <item>Logout</item>
+        <item>Exit</item>
+    </string-array>
+
+    <string-array name="child_travel_insurance">
+        <item>Equity Schengen Travel Insurance</item>
+        <item>Equity Non Schengen Travel Insurance</item>
+        <item>Student Travel Insurance</item>
+        <item>Equity Passenger Insurance</item>
+        <item>Equity Pilgrimage Protection</item>
+    </string-array>
+
+    <string-array name="child_microlife_insurance">
+        <item>Equity Education Accumulation Plan</item>
+        <item>Equity Legacy Assurance Plan</item>
+        <item>Equity Micro Savings Plan</item>
+        <item>Equity Target Investment Plan</item>
+        <item>Equity Micro Credit Plan</item>
+    </string-array>
+
+    <string-array name="child_micro_insurance">
+        <item>Equi Care</item>
+        <item>Equity Student Accident Insurance</item>
+        <item>Equi Secure</item>
+    </string-array>
+
+    <string-array name="child_home_insurance">
+        <item>House Owners Policy</item>
+        <item>House Holders Policy</item>
+    </string-array>
+
+    <string-array name="child_claims">
+        <item>Claims</item>
+    </string-array>
+
+    <string-array name="child_buy_now">
+        <item>Buy Now</item>
+    </string-array>
+
+    <string-array name="child_make_payment">
+        <item>Make Payment</item>
+    </string-array>
+
+    <string-array name="child_contact_us">
+        <item>Contact Us</item>
+    </string-array>
+
+    <string-array name="child_about_us">
+        <item>About Us</item>
+    </string-array>
+
+    <string-array name="child_logout">
+        <item>Logout</item>
+    </string-array>
+
+    <string-array name="child_exit">
+        <item>Exit</item>
+    </string-array>
+
+    <!--other array res-->
+    <string-array name="spinner_durations">
+        <item>Choose Duration</item>
+        <item>7 days</item>
+        <item>10 days</item>
+        <item>15 days</item>
+        <item>21 days</item>
+        <item>1 month</item>
+        <item>2 month</item>
+        <item>3 month</item>
+        <item>6 month</item>
+        <item>1 years</item>
+        <item>2 years</item>
+    </string-array>
+
+    <string-array name="spinner_packages">
+        <item>Choose Package</item>
+        <item>Travller</item>
+        <item>Pearl</item>
+        <item>Family</item>
+    </string-array>
+
+
+    <string-array name="esti_pricing">
+        <item>Pricing</item>
+        <item>N4,500.00</item>
+        <item>N5,000.00</item>
+        <item>N6,000.00</item>
+        <item>N8,500.00</item>
+        <item>N10,000.00</item>
+        <item>N15,000.00</item>
+        <item>N20,000.00</item>
+        <item>N25,000.00</item>
+        <item>N35.000.00</item>
+        <item>N70,000.0</item>
+    </string-array>
+
+    <string-array name="travller_package_pricing">
+        <item>Pricing</item>
+        <item>N9,500.00</item>
+        <item>N11,000.00</item>
+        <item>N14,000.00</item>
+        <item>N17,500.00</item>
+        <item>N25,000.00</item>
+        <item>N32,000.00</item>
+        <item>N36,000.00</item>
+        <item>N43,500.00</item>
+        <item>N47,500.00</item>
+        <item>N90,000.00</item>
+    </string-array>
+
+    <string-array name="pearl_package_pricing">
+        <item>Pricing</item>
+        <item>N7,500.00</item>
+        <item>N8,500.00</item>
+        <item>N12,000.00</item>
+        <item>N13,500.00</item>
+        <item>N16,500.00</item>
+        <item>N23,000.00</item>
+        <item>N30,000.00</item>
+        <item>N35,000.00</item>
+        <item>N42,000.00</item>
+        <item>N78,000.00</item>
+    </string-array>
+
+    <string-array name="family_package_pricing">
+        <item>Pricing</item>
+        <item>N9,000.00</item>
+        <item>N11,000.00</item>
+        <item>N13,000.00</item>
+        <item>N18,500.00</item>
+        <item>N20,000.00</item>
+        <item>N23,000.00</item>
+        <item>N32,000.00</item>
+        <item>N50,000.00</item>
+        <item>N56,000.00</item>
+        <item>N110,000.0</item>
+    </string-array>
+
+    <string-array name="spinner_duration_sti">
+        <item>Choose Duration</item>
+        <item>3 Months</item>
+        <item>6 Months</item>
+        <item>9 Months</item>
+        <item>1 year</item>
+    </string-array>
+
+    <string-array name="pricing_sti">
+        <item>Choose Duration</item>
+        <item>N55,000.00</item>
+        <item>N95,000.00</item>
+        <item>N105,000.00</item>
+        <item>N120,000.00</item>
+    </string-array>
+
+    <string-array name="spinner_duration_epi">
+        <item>Choose Duration</item>
+        <item>PER TRIP/DAY</item>
+    </string-array>
+
+    <string-array name="pricing_epi">
+        <item>Pricing</item>
+        <item>N500.00</item>>
+    </string-array>
+
+
+    <string-array name="spinner_duration_eeap">
+        <item>Choose Regular Premium Payment</item>
+        <item>Monthly</item>
+        <item>Quarterly</item>
+        <item>Half Yearly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <string-array name="pricing_eeap">
+        <item>Pricing</item>
+        <item>N5,000</item>
+        <item>N15,000</item>
+        <item>N30,000</item>
+        <item>N60,000</item>
+    </string-array>
+
+
+    <string-array name="spinner_age_band_elap">
+        <item>Choose Age Band</item>
+        <item>18-30</item>
+        <item>31-49</item>
+        <item>50-59</item>
+        <item>60-70</item>
+    </string-array>
+
+    <string-array name="pricing_elap">
+        <item>Pricing</item>
+        <item>N5.00</item>
+        <item>N6.00</item>
+        <item>N8.00</item>
+        <item>N15.00</item>
+    </string-array>
+
+    <string-array name="spinner_duration_emsp">
+        <item>Choose Regular Premium Payment</item>
+        <item>Daily Premium</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string-array name="pricing_emsp">
+        <item>Pricing</item>
+        <item>N50.00</item>
+        <item>N1,500</item>
+    </string-array>
+
+
+    <string-array name="spinner_policy_term_etip">
+        <item>Choose Policy Term</item>
+        <item>2 years</item>
+        <item>3 years</item>
+        <item>4 years</item>
+        <item>5 years</item>
+        <item>6 years</item>
+        <item>7 years</item>
+        <item>8 years</item>
+        <item>9 years</item>
+        <item>10 years</item>
+    </string-array>
+
+    <string-array name="spinner_contributions_etip">
+        <item>Choose Contribution</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string-array name="pricing_etip">
+        <item>Pricing</item>
+        <item>N100.00</item>
+        <item>N1,000</item>
+        <item>N5,000</item>
+    </string-array>
+
+    <!---->
+    <string-array name="spinner_options_ec">
+        <item>Choose Option</item>
+        <item>With Health Plan</item>
+        <item>Without Health Plan</item>
+    </string-array>
+
+    <string-array name="spinner_products_ec">
+        <item>Choose Equicare Product</item>
+        <item>Equicare (Bronze)</item>
+        <item>Equicare (Basic)</item>
+        <item>Equicare (Standard)</item>
+        <item>Equicare (Triumph)</item>
+    </string-array>
+
+    <string-array name="pricing_with_health_plan_ec">
+        <item>Pricing</item>
+        <item>N15,500</item>
+        <item>N20,500</item>
+        <item>N30,000</item>
+        <item>N50,400</item>
+    </string-array>
+
+    <string-array name="pricing_without_health_plan_ec">
+        <item>Pricing</item>
+        <item>N3,000</item>
+        <item>N5,000</item>
+        <item>N7,500</item>
+        <item>N10,000</item>
+    </string-array>
+
+    <string-array name="spinner_options_hop">
+        <item>Choose Option</item>
+        <item>Bronze</item>
+        <item>Silver</item>
+        <item>Gold</item>
+    </string-array>
+
+    <string-array name="sum_insured_hop">
+        <item>Choose Sum</item>
+        <item>N2M</item>
+        <item>N3M</item>
+        <item>N5M</item>
+    </string-array>
+
+    <string-array name="premium_hop">
+        <item>Choose Premium</item>
+        <item>N4,000.00</item>
+        <item>N6,000.00</item>
+        <item>N8,000.00</item>
+    </string-array>
+
+    <string-array name="spinner_options_hhp">
+        <item>Choose Option</item>
+        <item>Basic</item>
+        <item>Standard</item>
+        <item>Triumph</item>
+    </string-array>
+
+    <string-array name="sum_insured_hhp">
+        <item>Choose Sum</item>
+        <item>N500,000.00</item>
+        <item>N501,000.00 - 1M</item>
+        <item>N1M – N1.5M</item>
+    </string-array>
+
+    <string-array name="premium_hhp">
+        <item>Choose Premium</item>
+        <item>N4,000.00</item>
+        <item>N7,000.00</item>
+        <item>N10,000.00</item>
+    </string-array>
+
+    <string-array name="spinner_payment_options">
+        <item>Debit Card</item>
+        <item>Credit Card</item>
+        <item>NWallet</item>
+    </string-array>
+
+    <string-array name="spinner_durations_epp">
+        <item>Choose Duration</item>
+        <item>1 – 15 days</item>
+        <item>1 – 25 days</item>
+        <item>1 – 45 days</item>
+    </string-array>
+
+    <string-array name="spinner_products_epp">
+        <item>Choose Product</item>
+        <item>Pilgrimage Basic</item>
+        <item>Pilgrimage Plus</item>
+        <item>Pilgrimage Extra</item>
+    </string-array>
+
+    <string-array name="pilgrimage_basic_rate_epp">
+        <item>Choose Premium</item>
+        <item>N4,000.00</item>
+        <item>N6,000.00</item>
+        <item>N8,000.00</item>
+    </string-array>
+
+    <string-array name="pilgrimage_plus_rate_epp">
+        <item>Choose Premium</item>
+        <item>N5,000.00</item>
+        <item>N7,500.00</item>
+        <item>N10,000.00</item>
+    </string-array>
+
+    <string-array name="pilgrimage_extra_rate_epp">
+        <item>Choose Premium</item>
+        <item>N6,000.00</item>
+        <item>N10,000.00</item>
+        <item>N12,000.00</item>
+    </string-array>
+
+    <string-array name="spinner_duration_mcp">
+        <item>Choose Duration</item>
+        <item>12 months</item>
+    </string-array>
+
+    <string-array name="loan_amount_mcp">
+        <item>Choose Amount</item>
+        <item>N50,000.00</item>
+    </string-array>
+
+    <string-array name="premium_amount_mcp">
+        <item>Choose Premium</item>
+        <item>N5,000.00</item>
+    </string-array>
+
+
+    <string-array name="spinner_options_esai">
+        <item>Choose Options</item>
+        <item>Option 1</item>
+        <item>Option 2</item>
+    </string-array>
+
+    <string-array name="spinner_rates_option_1_esai">
+        <item>Choose Rate</item>
+        <item>N200, 000</item>
+        <item>N3, 200</item>
+    </string-array>
+
+    <string-array name="spinner_rates_option_2_esai">
+        <item>Choose Rate</item>
+        <item>N500, 000</item>
+        <item>N6, 200</item>
+    </string-array>
+
+    <string name="duration_esai">12 months</string>
+
+    <string-array name="spinner_durations_es">
+        <item>Choose Duration</item>
+        <item>12 months</item>
+    </string-array>
+
+    <string-array name="premium_es">
+        <item>Choose Premium</item>
+        <item>N10.00</item>
+    </string-array>
+
+
+</resources>

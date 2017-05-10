@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.nmobile.equityassurance">
+
+    <!--Uses Permissions-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.auto_insurance.AutoInsuranceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.travel_insurance.TravelInsuranceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.microlife_insurance.MicroLifeInsuranceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.micro_insurance.MicroInsuranceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.home_insurance.HomeInsuranceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.claims.ClaimsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.BuyNowActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.MakePaymentActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.ContactUsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.AboutUsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.micro_insurance.EquiCareActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.micro_insurance.EquiSecureActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.microlife_insurance.EquityEducationAccumulationPlanActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.microlife_insurance.EquityMicroCreditPlanActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.travel_insurance.EquityNonSchengenTravelInsuranceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.microlife_insurance.EquityMicroSavingsPlanActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.microlife_insurance.EquityLegacyAssurancePlanActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.travel_insurance.EquitySchengenTravelInsuranceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.microlife_insurance.EquityTargetInvestmentPlanActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.travel_insurance.StudentTravelInsuranceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.travel_insurance.EquityPassengerInsuranceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.travel_insurance.EquityPilgrimageProtectionActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.micro_insurance.EquityStudentAccidentInsuranceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.home_insurance.HouseHoldersPolicyActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.home_insurance.HouseOwnersPolicyActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.ConfirmOderActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+
+        <!--01/04/2017-->
+        <!--Claims-->
+        <activity
+            android:name=".ui.claims.DamageToInsuredVehicleActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.claims.DriverDetailsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.claims.ParticularsTheftActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.claims.ThirdPartiesInvolvedAccidentActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.claims.VehicleRegistrationActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>
